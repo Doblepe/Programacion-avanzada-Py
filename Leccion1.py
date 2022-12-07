@@ -63,9 +63,6 @@ s1.symmetric_difference_update(s2)
 #tuplas
 
 #son inmutables ( no se pueden modificar una vez declaradas)
-
-
-
 from pickle import TRUE
 from numpy import NaN
 
