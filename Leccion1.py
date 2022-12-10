@@ -64,7 +64,7 @@ s1.symmetric_difference_update(s2)
 
 #son inmutables ( no se pueden modificar una vez declaradas)
 from pickle import TRUE
-from numpy import NaN
+
 
 
 mitupla = (1,23,5,3,1,(2,99))
