@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('data.csv')
 print(df)
-#new_df = df.dropna(inplace=True)
+new_df = df.dropna(subset=['Date'], inplace=True)
 print ('-----------')
-df.plot()
+#df.plot()
+print(new_df)
 plt.show()
